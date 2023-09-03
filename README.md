@@ -1,18 +1,21 @@
-# MarkdownPreviewer - Project Details
-#Build a Markdown Previewer
+### Project Description - Build a Markdown Previewer
 
-##Objective: Build an app that is functionally similar to this: https://markdown-previewer.freecodecamp.rocks/.
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
 
-User Story #1: I can see a textarea element with a corresponding id="editor".
+In this project, we have built a Markdown previewer. With Markdown Editor or on side and a Previewer on the other side. When you edit the markdown language in the editor, you can view the output in the Markdown Previewer.
 
-User Story #2: I can see an element with a corresponding id="preview".
+### Project Live Link - https://vishal-gits.github.io/MarkdownPreviewer/
 
-User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
+This is a certification project of "Front End Development Libraries" on "Free Code Camp" https://www.freecodecamp.org/
 
-User Story #4: When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked).
+The Requirements of the project are stated in the below link
 
-User Story #5: When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer
 
-User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+### Built on React Framework along with Bootstrap
 
-Optional Bonus (you do not need to make this test pass): My markdown previewer interprets carriage returns and renders them as br (line break) elements.
+Additionally used
+
+#### 1- React Markdown (Markdown Component for React)- https://github.com/remarkjs/react-markdown
+
+#### 2- remarkjs/ remarkgfm (remark plugin to support GFM) - https://github.com/remarkjs/remark-gfm
